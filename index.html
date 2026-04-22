@@ -1,10 +1,90 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>AWS CI/CD Demo</title>
+  <meta charset="UTF-8">
+  <title>My CI/CD Demo Site</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #4facfe, #00f2fe);
+      color: #333;
+    }
+
+    header {
+      background: rgba(0,0,0,0.6);
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .container {
+      padding: 40px;
+      text-align: center;
+    }
+
+    .card {
+      background: white;
+      padding: 30px;
+      border-radius: 10px;
+      max-width: 600px;
+      margin: auto;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+    }
+
+    h1 {
+      margin-top: 0;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 12px 25px;
+      background: #4facfe;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      background: #007bff;
+    }
+
+    footer {
+      margin-top: 40px;
+      text-align: center;
+      color: white;
+      font-size: 14px;
+    }
+  </style>
 </head>
+
 <body>
-<h1>Welcome to AWS CI/CD Workshop</h1>
-  <p>Hello Everyone</p>
+
+<header>
+  <h1>🚀 My CI/CD Demo Website</h1>
+  <p>Deployed using AWS CodeBuild & S3</p>
+</header>
+
+<div class="container">
+  <div class="card">
+    <h2>Welcome!</h2>
+    <p>This is a simple static website deployed using a CI/CD pipeline.</p>
+
+    <p>
+      Edit this page, push your code, and watch automatic deployment happen!
+    </p>
+
+    <a href="#" class="btn">Learn More</a>
+  </div>
+</div>
+
+<footer>
+  <p>© 2026 My Demo Project | Built with ❤️</p>
+</footer>
+
 </body>
 </html>
